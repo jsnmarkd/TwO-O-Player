@@ -7,6 +7,6 @@ class Player
   end
 
   def wrong_answer
-    lives -= 1
+    @lives -= 1
   end
 end
